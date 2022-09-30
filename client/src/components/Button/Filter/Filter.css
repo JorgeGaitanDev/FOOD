@@ -1,0 +1,13 @@
+.select_diet{
+    background-color: transparent;
+    border: none;
+    text-decoration: none;
+    font-weight: 300;
+    color:rgb(35, 48, 70);
+    transition: all 500ms ease;
+    /* diets barra */
+}
+
+.choose {
+    font-weight: 300;
+}

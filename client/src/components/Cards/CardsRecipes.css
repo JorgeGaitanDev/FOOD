@@ -1,0 +1,120 @@
+.container .card {
+  margin: 20px;
+  background-color: #08cdeb;
+  /* transition: transform 0.3s ease-in-out; */
+  border-style: none;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  overflow: hidden;
+  box-shadow: 0px 2px 2px rgba(31, 1, 255, 0.978);
+  cursor: default;
+  transition: all 600ms ease;
+  width: 330px;
+  height:300px;
+  display: flex;
+  max-width: 1000px;
+  border-radius: 8px;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+  /* nombre y fondo cards */
+}
+
+.fund {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background: url(https://cdn-www.bluestacks.com/bs-images/banner7_08.jpg); 
+   /* background-color: #f0ddaa;  */
+  background-color: #0c3533;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  overflow: hidden;
+  background-size: cover;
+  /* fondo home */
+}
+
+.container .card:hover {
+  transition: all 600ms ease;
+  box-shadow: 0px 12px 16px rgba(13, 0, 255, 0.2);
+  filter: opacity(0.9);
+  /* transform: translateY(100%); */
+  transform: scale(0.9);
+  background-color: #0800ff;
+  background-color: #ffee00;
+  color: #ff0000;
+  font-weight: bold;
+  height: 445px;
+  overflow: hidden;
+  /* Card evento mause */
+}
+
+.card img {
+    /* width: 100%; */
+    width: 350px;
+    height: 230px;
+    /* imagen card */
+}
+.container .card h4 {
+    font-weight: 800;
+    text-decoration: none;
+    padding: 0 2rem;
+    /* texto recetas */
+}
+
+
+.container .card  ul li {
+    padding: 0 1rem;
+    font-size: 16px;
+    font-weight: 900;
+    /* lista */
+}
+.contenido{
+  overflow: hidden;
+}
+.container .card .contenido {
+  justify-content: center;
+  justify-content: space-around;
+}
+.container .card .contenido .datos {
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+.container .card .contenido .name {
+  justify-content: center;
+}
+
+.img_score {
+  position: relative;
+}
+
+ .score {
+  position: absolute;
+  color:#fff;
+  font-size:xx-large;
+  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 47px;
+  z-index: 3;
+  background-color: #08cdeb;
+  top: 0;
+  right: 9px;
+  border-radius: 0 0 0px 8px;
+  box-shadow: -8px 8px 26px 0px rgba(0,0,0,0.75);
+  padding-left: 10px;
+  /* puntuacion card */
+}
+
+.Home {
+  overflow: hidden;
+}
+
+

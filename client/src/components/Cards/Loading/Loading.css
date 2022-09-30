@@ -1,0 +1,14 @@
+.contain_loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50vh;
+    padding-bottom: 50vh;
+    background-color: #fff;
+    transition: all 400ms ease;
+    /* color de fondo landing */
+}
+
+.cat_loading{
+    position: absolute;
+}

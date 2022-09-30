@@ -1,0 +1,149 @@
+.form {
+  position: relative;
+    height: 220vh;
+   display: flex;
+   background: url(https://www.wallpapertip.com/wmimgs/92-920800_plants-vs-zombies-wallpaper-for-iphone-wallpaper-for.jpg); 
+   align-items: center;
+   justify-content: center;
+   width: 100%;
+   font-weight: 300;
+}
+
+.back_home{
+  color: #388568;
+  position: absolute;
+  border: none;
+  background-color: transparent;
+  font-size: medium;
+  top: 100px;
+  left: 200px;
+  transition: all 400ms ease;
+  border-radius: 8px;
+}
+.back_home span{
+  border: none;
+  font-size: xx-large;
+}
+.back_home:hover{
+  box-shadow: 0px 12px 16px rgba(0, 0, 0, 0.2);
+  filter: opacity(0.9);
+  transform: translateY(-3%);
+}
+.contain_form{
+    border-radius: 8px;
+    background-color: #fff;
+    width: 73%;
+    height: 86%;
+    display: flex;
+    align-items: center;
+   justify-content: space-around;
+   box-shadow: 0px 12px 16px rgba(0, 0, 0, 0.3);
+}
+
+.title_form_div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title_form {
+    font-weight: 100;
+    font-size: 4em;
+    margin-top: 17vh;
+}
+
+.title_form  span{
+    font-weight: 100;
+    font-size: 1.70em;
+    color: #017143 ;
+    font-weight: 500;
+}
+
+.contain_form_inputs{
+  display: flex;
+  justify-content: space-between;
+}
+.input_text input {
+    background-color: transparent;
+    width: 170px;
+    cursor: pointer;
+    height: 30px;
+    border: none ;
+    border-bottom: 1px solid #017143;
+    margin-right: 100px;
+  }
+  
+  .input_text  div{
+    background-color: #ffffff;
+  }
+  .input_text  label{
+    color: #017143 ;
+    font-size: large;
+    font-weight: 600;
+  }
+
+  .label_type{
+    color: #017143 ;
+    font-size: large;
+    font-weight: 600;
+  }
+
+  .input_text  p{
+    color: #6a7f32e4 ;
+    font-size: large;
+    font-weight: 400;
+  }
+
+  .button_create{
+    background-color: #28ab88;
+    border: none;
+    border-width: 1.1px;
+    font-size: x-large;
+    padding: 2px 10px 2px 10px;
+    border-radius: 8px;
+    font-weight: 500;
+    transition: all 400ms ease;
+    margin-bottom: 100px;
+    cursor: pointer;
+    color: #fff;
+  }
+
+  .button_create:active{
+    transform: scale(0.85);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+    background-color: #388568;
+  }
+  
+  .new_steps{
+    cursor: pointer;
+    border:solid;
+    border-width: 1.1px;
+    font-size: medium;
+    padding: 5px 15px 10px 15px;
+    margin: 5px 390px 10px 15px;
+    border-radius: 8px;
+    font-weight: 500;
+    transition: all 400ms ease;
+    border-color: #6cbe9f;
+  }
+  .new_steps:hover {
+    background-color: #6cbe9f;
+  }
+  
+  .label_errors {
+    color: #6a7f32e4 ;
+    font-size: large;
+    font-weight: 400;
+  }
+
+/* .form_inputs{
+    display: flex;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+} */
+/* .color1 { #59b390 };
+.color2 { #f0ddaa };
+.color3 { #e47c5d };
+.color4 { #e32d40 };
+#138a11
+.color5 { #152b3c }; */

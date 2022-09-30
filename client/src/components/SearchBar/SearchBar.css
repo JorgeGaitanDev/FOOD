@@ -1,0 +1,23 @@
+.search{
+    background-color: transparent;
+    border: none;
+    border-width: 1px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.search_button{
+    background-color: transparent;
+    border: none;
+    font-size: 19px;
+    border-radius: 100%;
+    width: 5px;
+    height: 5px;
+    color : white;
+    cursor: pointer;
+    transition: all 400ms ease;
+}
+
+.search_button:active {
+    color:rgb(7, 66, 25);
+}
